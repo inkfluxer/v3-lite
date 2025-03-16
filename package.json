@@ -9,7 +9,8 @@
         "preview": "vite preview",
         "build-only": "vite build",
         "type-check": "vue-tsc --build",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "post-install": "npx simple-git-hooks"
     },
     "dependencies": {
         "@vueuse/core": "^13.0.0",

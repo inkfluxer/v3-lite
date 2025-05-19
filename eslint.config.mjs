@@ -11,6 +11,12 @@ export default antfu(
             quotes: 'single', // or 'double'
         },
 
+        formatters: {
+            css: true,
+            html: true,
+            markdown: 'prettier',
+        },
+
         // TypeScript and Vue are autodetected, you can also explicitly enable them:
         // typescript: true,
         vue: true,

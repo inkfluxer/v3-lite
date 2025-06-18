@@ -83,8 +83,9 @@ export default antfu(
             'ts/no-unnecessary-type-constraint': 'off',
             'vue/no-template-shadow': 'off',
             'vue/no-v-text-v-html-on-component': 'off',
-             'style/brace-style': 'off',
-             'antfu/if-newline': 'off'
+            'style/brace-style': 'off',
+            'antfu/if-newline': 'off',
+            'style/multiline-ternary': 'off'
         },
     },
 )
